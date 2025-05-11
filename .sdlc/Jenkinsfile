@@ -2,7 +2,7 @@ node {
     def mvnHome
 
     stage('Preparation') {
-        git 'https://github.com/eliasnogueira/selenium-java-lean-test-achitecture.git'
+        git 'https://github.com/clark-ewerton/selenium-java-testng-grid-docker-jenkins-allure.git'
     }
 
     stage('Build') {
