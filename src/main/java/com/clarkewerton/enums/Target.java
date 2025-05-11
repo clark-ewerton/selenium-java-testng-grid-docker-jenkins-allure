@@ -44,9 +44,13 @@ public enum Target {
     }
 
     static {
-        Map<String, Target> map = stream(Target.values())
-                .collect(toMap(instance -> instance.value.toLowerCase(), instance -> instance, (_, b) -> b, ConcurrentHashMap::new));
-        ENUM_MAP = Collections.unmodifiableMap(map);
+      Map<String, Target> map = stream(Target.values())
+        .collect(toMap(
+            instance -> instance.value.toLowerCase(), 
+            instance -> instance, 
+            (oldValue, newValue) -> newValue, 
+            ConcurrentHashMap::new));
+            ENUM_MAP = Collections.unmodifiableMap(map);
     }
 
     public static Target get(String value) {
