@@ -3,7 +3,6 @@ node {
 
     stage('Preparation') {
         git 'https://github.com/eliasnogueira/selenium-java-lean-test-achitecture.git'
-        mvnHome = tool 'M3'
     }
 
     stage('Build') {
