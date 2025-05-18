@@ -11,7 +11,7 @@ node {
 
     stage('Test Execution') {
         try {
-            sh "mvn test -Pweb-execution -Dsuite=selenium-grid -Dtarget=selenium-grid -Dheadless=true -Dbrowser=chrome"
+            sh "mvn test -Pweb-execution -Dsuite=selenium-grid -Dtarget=selenium-grid -Dheadless=true"
         } catch (Exception e) {
             currentBuild.result = 'FAILURE'
         } finally {
