@@ -1,32 +1,13 @@
 # Lean Test Automation Architecture using Java and Selenium WebDriver
 
-[![Actions Status](https://github.com/eliasnogueira/selenium-java-lean-test-achitecture/workflows/Build%20and%20Test/badge.svg)](https://github.com/eliasnogueira/selenium-java-lean-test-achitecture/actions)
-
-**This project delivers to you a complete lean test architecture for your web tests using the best frameworks and
-practices.**
-
 It has a complete solution to run tests in different ways:
 
 * local testing using the browser on your local machine
-* parallel (or single) testing using Selenium Docker
-* local testing using TestContainers
 * Distributed execution using Selenium Grid
-
-## Examples
-
-### Local testing execution example
-
-![Local testing execution example](assets/example_filed_test_with_report.gif)
-
-### Parallel testing execution example with Selenium Grid
-
-![Parallel testing execution example with Selenium Grid](assets/selenium-grid-execution.gif)
-
-## Languages and Frameworks
 
 This project uses the following languages and frameworks:
 
-* [Java 23](https://openjdk.java.net/projects/jdk/23/) as the programming language
+* [Java 17](https://openjdk.java.net/projects/jdk/23/) as the programming language
 * [TestNG](https://testng.org/doc/) as the UnitTest framework to support the test creation
 * [Selenium WebDriver](https://www.selenium.dev/) as the web browser automation framework using the Java binding
 * [AssertJ](https://joel-costigliola.github.io/assertj/) as the fluent assertion library
