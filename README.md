@@ -247,4 +247,4 @@ Please note that you need to do the following actions before running it in paral
         * `docker compose build --no-cache`
         * `docker compose up`
 * Run Jenkins's pipeline:
-[Local testing execution example](assets/mypipelineJenkins.png.gif)
+[Local testing execution example](assets/mypipelineJenkins.png)
