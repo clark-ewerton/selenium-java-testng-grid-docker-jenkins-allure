@@ -239,7 +239,7 @@ Please note that you need to do the following actions before running it in paral
 * Docker installed
 * Pull the three files from the folder .sdlc, copy it and paste it on any folder on your computer
 * Quick explanation about each file:
-    * DockerFile: responsible for pulling Jenkins image and set up a default pipeline from Git SCM that is gonna be run e2e selenium grid testing.
+    * DockerFile: responsible for pulling Jenkins imag! and set up a default pipeline from Git SCM that is gonna be run e2e selenium grid testing.
     * docker-compose.yml: responsible for starting up Jenkins image along with Selenium Grid, Chrome and Firefox's images. (By default, Jenkins will listen on port 8090)
     * JenkinsFile: the whole pipeline's stages
     * init.groovy.d: responsible for defining which Github's repository pipeline is gonna read.
@@ -247,4 +247,5 @@ Please note that you need to do the following actions before running it in paral
         * `docker compose build --no-cache`
         * `docker compose up`
 * Run Jenkins's pipeline:
-[Local testing execution example](assets/mypipelineJenkins.png)
+![Local testing execution example](assets/mypipelineJenkins.png)
+![Local testing execution example](assets/pipelineExecution.png)
