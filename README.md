@@ -1,4 +1,6 @@
-# Lean Test Automation Architecture using Java and Selenium WebDriver
+# Project to demonstrate knowledge in tools such as Selenium + Java + TestNg + Docker + Grid (Parallel Testing) + Jenkins + Docker
+
+Don't forget to give this project a ⭐
 
 It has a complete solution to run tests in different ways:
 
